@@ -1,2 +1,13 @@
-# UK-WallJumpHUD
-A mod for ULTRAKILL that adds indicators to the HUD for how many wall jumps the player currently has.
+# WallJumpHUD
+
+Customizable HUD and crosshair indicators for wall jumps. Both indicators can be hidden, and colors can be changed.
+
+Install via [Thunderstore](https://thunderstore.io/c/ultrakill/p/TRPG/WallJumpHUD/), or by following the steps below:
+
+1. Download and install [BepInEx 5.4.21](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21) in your ULTRAKILL root folder. *Do not use any pre-release versions of BepInEx 6.*
+
+2. Start ULTRAKILL once so that BepInEx can create its required configuration files.
+
+3. Install [PluginConfigurator](https://github.com/eternalUnion/UKPluginConfigurator).
+
+4. Download `WallJumpHUD.zip` from the [Releases](https://github.com/TRPG0/BRC-NoTutorial/releases) page and extract the contents into `BepInEx\plugins`.
