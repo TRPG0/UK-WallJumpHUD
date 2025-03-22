@@ -137,7 +137,7 @@ namespace WallJumpHUD
         public void OnPowerUpStarted()
         {
             SetWallJumps(nm.gc.onGround ? Core.MaxWalljumps : nm.currentWallJumps);
-            if (crosshair1 == null || crosshair2 == null || crosshair3 == null || !HUDOptions.powerUpMeterEnabled) return;
+            if (crosshair1 == null || crosshair2 == null || crosshair3 == null || !PrefsManager.Instance.GetBool("powerUpMeter", true))  return;
 
             float radiusDist = 12;
             float parallelDist = 6;
